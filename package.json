@@ -1,0 +1,21 @@
+{
+  "name": "@feizheng/pan-baidu-helper",
+  "version": "1.0.0",
+  "description": "Pan baidu chrome extension.",
+  "homepage": "https://github.com/abcft/pan-baidu-helper",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "mv ../pan-baidu-helper.* dist && rm -rf dist/pan-baidu-helper.pem"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
